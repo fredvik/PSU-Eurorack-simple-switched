@@ -1,0 +1,6 @@
+# Create clean/smudge filters to remove snippets from KiCAD files that are problematic to Git and not critical to KiCad:
+# https://jnavila.github.io/plotkicadsch/
+#
+
+*.pro filter=kicad_project
+*.sch filter=kicad_sch

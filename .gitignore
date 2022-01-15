@@ -1,0 +1,27 @@
+# Setup gitignore for KiCAD projects
+# https://atlaswiki.lbl.gov/guides/kicad/git
+# and
+# https://jnavila.github.io/plotkicadsch/
+#
+# Generic backup files
+*~
+\#*
+.\#*
+
+# KiCad backup files
+*.bak
+*.bck
+*.kicad_pcb-bak
+
+# KiCad generated files
+*.erc
+*.net
+*-cache.lib
+*-rescue.lib
+
+# export files for BOM
+*.csv
+*.tsv
+*.xml
+# backup files
+*.bak
